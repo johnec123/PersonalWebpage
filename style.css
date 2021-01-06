@@ -369,6 +369,15 @@ section {
     bottom: 0;
     left: calc(50% - 20px);
 }
+.section-title h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+}
 
 .section-title p {
     margin-bottom: 0;
