@@ -7,27 +7,6 @@
 !(function($) {
     "use strict";
 
-    // Preloader
-    $(window).on('load', function() {
-        if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function() {
-                $(this).remove();
-            });
-        }
-    });
-
-    // Hero typed
-    if ($('.typed').length) {
-        var typed_strings = $(".typed").data('typed-items');
-        typed_strings = typed_strings.split(',')
-        new Typed('.typed', {
-            strings: typed_strings,
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 50,
-            backDelay: 2000
-        });
-    }
 
     // Smooth scroll for the navigation menu and links with .scrollto classes
     $(document).on('click', '.nav-menu a, .scrollto', function(e) {
