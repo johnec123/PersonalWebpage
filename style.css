@@ -11,22 +11,9 @@ a {
     color: #0563bb;
     text-decoration: none;
 }
-
-a:hover {
-    color: #067ded;
-    text-decoration: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-    :root {
-        scroll-behavior: auto;
-    }
-}
-
 
 /*--------------------------------------------------------------
 # Aos
@@ -112,13 +99,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
 @media screen and (max-width: 800px) {
     .aos-item-skills {
         width: 50%;
-    }
-    .aos-item-education{
-        width: 100%;
     }
     .aos-item-experience{
         height: 1000px;
@@ -196,18 +179,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #45505b;
 }
 
-#hero p {
-    color: #45505b;
-    margin: 15px 0 0 0;
-    font-size: 26px;
-    font-family: "Poppins", sans-serif;
-}
-
-#hero p span {
-    color: #0563bb;
-    letter-spacing: 1px;
-}
-
 #hero .social-links {
     margin-top: 30px;
 }
@@ -230,11 +201,6 @@ h1, h2, h3, h4, h5, h6 {
     #hero h1 {
         font-size: 32px;
         line-height: 36px;
-    }
-    #hero p {
-        margin-top: 10px;
-        font-size: 20px;
-        line-height: 24px;
     }
 }
 
@@ -334,13 +300,6 @@ section {
     font-family: "Poppins", sans-serif;
     padding: 0;
     margin: 0 0 15px 0;
-}
-
-#footer p {
-    font-size: 15px;
-    font-style: italic;
-    padding: 0;
-    margin: 0 0 40px 0;
 }
 
 #footer .social-links {
